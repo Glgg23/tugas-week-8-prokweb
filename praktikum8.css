@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.container>*{
+    padding: 10px;
+    margin: 10px;
+    flex:  100%;
+    border-radius: 20px;
+}
+
+.header{
+    background-color: tomato;
+    height: 100px;
+}
+
+.article{
+    background-color: aqua;
+    height: 300px;
+    flex: 2;
+
+}
+
+.article img{
+    width: 150px;
+   padding-top: 13%;
+}
+
+.aside{
+    background-color: aquamarine;
+    flex: 1;
+}
+
+.footer{
+    background-color: tomato;
+    height: 80px;
+}
